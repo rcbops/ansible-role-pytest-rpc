@@ -1,0 +1,19 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: rpc-automation
+  description: "A role for configuring RPC-O infra for Molecule testing"
+  company: "Rackspace, Inc."
+  license: "license (Apache)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags: []
