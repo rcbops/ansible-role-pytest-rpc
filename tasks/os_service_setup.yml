@@ -26,5 +26,5 @@
     content: "{{ {'already_ran':'true'} | to_nice_json(indent=2) }}"
     dest: "{{ custom_fact_path }}/service_setup.fact"
 
-- name: re-read facts after adding custome fact
+- name: re-read facts after adding custom fact
   setup: filter=ansible_local
